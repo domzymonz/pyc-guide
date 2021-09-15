@@ -1,24 +1,21 @@
 
 @media only screen and (max-width: 600px) {
     .navbar {
-        position: fixed;
+        position: sticky;
         display: block;
-        top: 1rem;
-        right: 1rem;
+        inset: 0;
         margin-left: auto;
-        width: 3rem;
         height: 3rem;
-        border-radius: 10px;
         z-index: 99;
-        transition: 400ms
+        transition: 400ms;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
 
     .navbar:hover {
         height: 20rem;
-        width: 15rem;
-        border-radius: 10px;
         transition: 400ms;
-        overflow-y: scroll
+        overflow-y: auto;
     }
 
     .navbar-nav {

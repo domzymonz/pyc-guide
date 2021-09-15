@@ -1,0 +1,58 @@
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        position: fixed;
+        display: block;
+        top: 1rem;
+        right: 1rem;
+        margin-left: auto;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 10px;
+        z-index: 99;
+        transition: 400ms
+    }
+
+    .navbar:hover {
+        height: 20rem;
+        width: 15rem;
+        border-radius: 10px;
+        transition: 400ms;
+        overflow-y: scroll
+    }
+
+    .navbar-nav {
+        display: none;
+        flex-direction: column;
+        margin: 2rem 0;
+    }
+
+    .navbar-nav > * {
+        padding: 0 1rem;
+        margin: 0;
+    }
+
+    .navbar:hover .navbar-nav {
+        display: flex
+    }
+
+    .navbar-nav > *:last-child {
+        margin: 0;
+    }
+
+    .navbar:hover .nav-item {
+        display: block;
+    }
+
+    .navbar::-webkit-scrollbar-track {
+        border-radius: 10px;
+    }
+
+    .navbar::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+    }
+
+    .main-frame > *:nth-child(1) {
+        display: none;
+    }
+}

@@ -185,24 +185,36 @@ body {
     padding: 2rem;
 }
 
-.info-card {
+
+.card {
     background-color: #2f3136;
-    border-left: 4px solid #505cdc;
+    border-left: 4px solid #202225;
     border-radius: 4px;
     padding: 0.25rem 1rem;
 }
 
-.warning-card {
-    background-color: #2f3136;
-    border-left: 4px solid #FFA500;
-    border-radius: 4px;
-    padding: 0.25rem 1rem;
+.info {
+    border-color: #505CDC;
 }
 
-.code-block {
+.warning {
+    border-color: #FFA500;
+}
+
+.code-block-normal {
     display: inline;
+    font-size: 1rem;
     text-indent: 0;
-    background-color: #2f3136;
+    background-color: #2F3136;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.code-block-embed {
+    display: inline;
+    font-size: 0.875rem;
+    text-indent: 0;
+    background-color: #202225;
     border-radius: 4px;
     padding: 2px;
 }

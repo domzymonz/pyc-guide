@@ -196,7 +196,7 @@ body {
     background-color: #2f3136;
     border-left: 4px solid #FFA500;
     border-radius: 4px;
-    padding: 0.25rem;
+    padding: 0.25rem 1rem;
 }
 
 .code-block {

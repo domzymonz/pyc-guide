@@ -39,8 +39,8 @@ a:hover {
 :target::before {
   content: "";
   display: block;
-  height: 69px; /* fixed header height*/
-  margin: -69px 0 0; /* negative fixed header height */
+  height: calc(69px + 1rem); /* fixed header height*/
+  margin: calc(-69px + 1rem) 0 0; /* negative fixed header height */
 }
 
 

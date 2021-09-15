@@ -192,6 +192,13 @@ body {
     padding: 0.25rem 1rem;
 }
 
+.warning-card {
+    background-color: #2f3136;
+    border-left: 4px solid #FFA500;
+    border-radius: 4px;
+    padding: 0.25rem;
+}
+
 .code-block {
     display: inline;
     font-size: 0.875rem;

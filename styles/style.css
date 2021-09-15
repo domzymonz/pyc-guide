@@ -23,14 +23,17 @@ body {
 
 a:link {
     text-decoration: none;
+    color: #dddddd;
 }
 
-a:link {
+a:visited {
     text-decoration: none;
+    color: #dddddd;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #bbbbbb;
 }
 
 

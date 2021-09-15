@@ -36,6 +36,13 @@ a:hover {
     color: #bbbbff;
 }
 
+:target::before {
+  content: "";
+  display: block;
+  height: 69px; /* fixed header height*/
+  margin: -69px 0 0; /* negative fixed header height */
+}
+
 
 .navbar {
     position: sticky;

@@ -21,6 +21,18 @@ body {
     background: #6633df;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 .navbar {
     position: sticky;

@@ -21,17 +21,17 @@ body {
     background: #6633df;
 }
 
-a:link {
+.anchor:link {
     text-decoration: none;
     color: #9999ff;
 }
 
-a:visited {
+.anchor:visited {
     text-decoration: none;
     color: #9999ff;
 }
 
-a:hover {
+.anchor:hover {
     text-decoration: underline;
     color: #bbbbff;
 }

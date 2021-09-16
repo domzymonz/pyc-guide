@@ -5,7 +5,7 @@ html {
 body {
     background-color: #38383d;
     color: #ededf0;
-    margin: 0;
+    margin: calc(69px + 1rem) 0 0 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -38,13 +38,6 @@ body {
 .anchor:hover {
     text-decoration: underline;
     color: #bbbbff;
-}
-
-:target::before {
-  content: "";
-  display: block;
-  height: calc(69px + 1rem); /* fixed header height*/
-  margin: calc(-69px + 1rem) 0 0; /* negative fixed header height */
 }
 
 

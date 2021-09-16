@@ -9,8 +9,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h3 {
-    scroll-margin-top: 50px;
+h3, h4 {
+    scroll-margin-top: 69px;
 }
 
 ::-webkit-scrollbar {

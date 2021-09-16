@@ -90,7 +90,7 @@ body {
     text-decoration: none;
 }
 
-.section-border {
+hr.section-border {
     border-top: 1px solid #4d4d55;
 }
 

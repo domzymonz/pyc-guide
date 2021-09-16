@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #38383d;
     color: #ededf0;
@@ -223,7 +227,11 @@ body {
     border-color: #FFA500;
 }
 
-.code-block-normal {
+.faq {
+    border-color: #9873AC;
+}
+
+.code-line-normal {
     display: inline;
     font-size: 1rem;
     text-indent: 0;
@@ -232,7 +240,7 @@ body {
     padding: 2px;
 }
 
-.code-block-embed {
+.code-line-embed {
     display: inline;
     font-size: 0.875rem;
     text-indent: 0;

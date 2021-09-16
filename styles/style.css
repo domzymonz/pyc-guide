@@ -42,7 +42,7 @@ body {
 
 
 .navbar {
-    position: fixed;
+    position: sticky;
     display: block;
     left: 0;
     top: 0;

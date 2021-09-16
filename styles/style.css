@@ -90,6 +90,10 @@ body {
     text-decoration: none;
 }
 
+.section-border {
+    border-top: 1px solid #4d4d55;
+}
+
 .brand {
     display: flex;
     flex-wrap: wrap;

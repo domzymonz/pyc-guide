@@ -90,8 +90,12 @@ body {
     text-decoration: none;
 }
 
+hr {
+    border-width: 2px;
+}
+
 hr.section-border {
-    border-top: 1px solid #4d4d55;
+    border-color: #4d4d55;
 }
 
 .brand {

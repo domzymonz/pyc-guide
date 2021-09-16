@@ -5,7 +5,7 @@ html {
 body {
     background-color: #38383d;
     color: #ededf0;
-    inset: 0;
+    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

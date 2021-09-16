@@ -91,6 +91,7 @@ body {
 }
 
 hr.section-border {
+    color: transparent;
     border-color: #4d4d55;
 }
 

@@ -1,0 +1,33 @@
+.code-syntax {
+    margin: 0em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.func,
+.function {
+    color: #dc322f;
+}
+
+.str,
+.string,
+.int,
+.integer {
+    color: #2aa198;
+}
+
+.exp,
+.expression {
+    color: #268bd2;
+}
+
+.keyword {
+    color: #859900;
+}
+
+.op,
+.operation {
+ color: #b58900;
+}

@@ -9,7 +9,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h3, h4 {
+.section {
     scroll-margin-top: 69px;
 }
 

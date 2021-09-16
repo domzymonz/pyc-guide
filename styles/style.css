@@ -5,6 +5,8 @@ html {
 body {
     background-color: #38383d;
     color: #ededf0;
+    top: 0;
+    left: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -92,7 +94,8 @@ hr.section-border {
     flex-wrap: wrap;
     gap: 1rem;
     height: fit-content;
-    min-height: 569px;
+    min-height: 500px;
+    padding: 69px 0 0 0;
     background-color: #1d1d1d;
 }
 

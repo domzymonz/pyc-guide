@@ -90,10 +90,6 @@ body {
     text-decoration: none;
 }
 
-hr {
-    border-width: 2px;
-}
-
 hr.section-border {
     border-color: #4d4d55;
 }

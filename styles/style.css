@@ -9,6 +9,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h2 {
+    scroll-margin-top: 50px;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }

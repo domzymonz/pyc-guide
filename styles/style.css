@@ -42,12 +42,13 @@ body {
 
 
 .navbar {
-    position: sticky;
+    position: fixed;
     display: block;
     left: 0;
     top: 0;
     margin: 0;
     padding: 0;
+    width: 100vw;
     background-color: #4752C4;
     overflow: hidden;
     transition: 400ms;

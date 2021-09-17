@@ -1,5 +1,19 @@
 
 @media only screen and (max-width: 600px) {
+
+    .brand {
+        margin-left: 1.5rem;
+    }
+
+    .sidebar {
+        position: fixed;
+        margin-top: 48px;
+    }
+
+    .sidebar:hover {
+        margin-top: 48px;
+    }
+
     .navbar {
         position: sticky;
         display: block;
@@ -47,9 +61,5 @@
 
     .navbar::-webkit-scrollbar-thumb {
         border-radius: 10px;
-    }
-
-    .main-frame > *:nth-child(1) {
-        display: none;
     }
 }

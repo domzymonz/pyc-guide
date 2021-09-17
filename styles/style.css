@@ -9,10 +9,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.section {
-    scroll-margin-top: calc(69px + 1rem);
-}
-
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -44,7 +40,6 @@ body {
     color: #bbbbff;
 }
 
-
 .navbar {
     position: sticky;
     display: block;
@@ -55,7 +50,7 @@ body {
     background-color: #4752C4;
     overflow: hidden;
     transition: 400ms;
-    z-index: 99;
+    z-index: 100;
 }
 
 .navbar-nav {
@@ -87,17 +82,12 @@ body {
     text-decoration: none;
 }
 
-hr.section-border {
-    color: transparent;
-    border-color: #4d4d55;
-}
-
 .brand {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     height: fit-content;
-    min-height: 569px;
+    min-height: 500px;
     background-color: #1d1d1d;
 }
 
@@ -194,25 +184,59 @@ hr.section-border {
 }
 
 .main-frame {
-    display: flex;
-    flex-wrap: wrap;
     inset: 0;
     height: fit-content;
 }
 
 .main-frame > *:nth-child(1) {
-    flex: 1 0 20%;
-    inset: 0;
-    padding: 2rem;
-    border-right: 2px solid #FFFFFF;
-}
-
-.main-frame > *:nth-child(2) {
-    flex: 1 1 70%;
     inset: 0;
     padding: 2rem;
 }
 
+.sidebar {
+    position: fixed;
+    display: block;
+    inset: 0;
+    margin: 69px 0 0 calc(-29ch - 1.5rem);
+    padding: 1rem;
+    z-index: 50;
+    width: 30ch;
+    background-color: #23272A;
+    border-right: 5px solid #404EED;
+    transition: 400ms;
+}
+
+.sidebar:hover {
+    margin: 69px 0 0 0;
+    transition: 400ms;
+}
+
+.sidebar > ul,
+.sidebar > ul > * > ul {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0.5rem;
+    margin-inline-end: 0;
+    padding-inline-start: 0;   
+}
+
+.sidebar > ul > * {
+    position: relative;
+    border-radius: 4px;
+    padding: 1ch;
+    border-left: 4px solid transparent;
+    text-transform: unset;
+    font-weight: 600;
+}
+
+.sidebar > ul > *:hover {
+    border-left: 4px solid white;
+}
+
+.section {
+    scroll-margin-top: calc(69px + 1rem);
+}
 
 .card {
     background-color: #2f3136;
@@ -229,11 +253,7 @@ hr.section-border {
     border-color: #FFA500;
 }
 
-.faq {
-    border-color: #9873AC;
-}
-
-.code-line-normal {
+.code-block-normal {
     display: inline;
     font-size: 1rem;
     text-indent: 0;
@@ -242,9 +262,9 @@ hr.section-border {
     padding: 2px;
 }
 
-.code-line-embed {
+.code-block-embed {
     display: inline;
-    font-size: 1rem;
+    font-size: 0.875rem;
     text-indent: 0;
     background-color: #202225;
     border-radius: 4px;

@@ -209,10 +209,14 @@ body {
 .sidebar:hover {
     margin: 69px 0 0 0;
     transition: 400ms;
+    overflow: auto;
 }
 
-.sidebar > ul,
-.sidebar > ul > * > ul {
+.sidebar-header {
+    margin: 0;
+}
+
+.sidebar-list {
     list-style-type: none;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -221,21 +225,27 @@ body {
     padding-inline-start: 0;   
 }
 
-.sidebar > ul > * {
+.sidebar-item {
     position: relative;
     border-radius: 4px;
-    padding: 1ch;
+    padding: 0.5ch 1ch;
     border-left: 4px solid transparent;
     text-transform: unset;
     font-weight: 600;
 }
 
-.sidebar > ul > *:hover {
+.sidebar-item:hover {
     border-left: 4px solid white;
+    background-color: #555555BB;
 }
 
 .section {
     scroll-margin-top: calc(69px + 1rem);
+}
+
+
+.section-border {
+    border-color: #8f8f9d;
 }
 
 .card {
@@ -253,7 +263,7 @@ body {
     border-color: #FFA500;
 }
 
-.code-block-normal {
+.code-line-normal {
     display: inline;
     font-size: 1rem;
     text-indent: 0;
@@ -262,7 +272,7 @@ body {
     padding: 2px;
 }
 
-.code-block-embed {
+.code-line-embed {
     display: inline;
     font-size: 0.875rem;
     text-indent: 0;

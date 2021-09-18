@@ -7,6 +7,7 @@ body {
     color: #ededf0;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-margin-top: calc(69px + 1rem);
 }
 
 ::-webkit-scrollbar {
@@ -238,11 +239,6 @@ body {
     border-left: 4px solid white;
     background-color: #555555BB;
 }
-
-.section {
-    scroll-margin-top: calc(69px + 1rem);
-}
-
 
 .section-border {
     border-color: #8f8f9d;

@@ -288,3 +288,13 @@ body {
     padding: 1ch;
     margin: 1ch;
 }
+
+.button {
+    background-color: #5865f2;
+    padding: 10px 16px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #3c45a5;
+}
